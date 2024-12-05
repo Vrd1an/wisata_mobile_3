@@ -1,6 +1,7 @@
 import 'package:aslab_travel/latihanmodul/Pertemuan4.dart';
 import 'package:aslab_travel/latihanmodul/Pertemuan5.dart';
 import 'package:aslab_travel/latihanmodul/Pertemuan6.dart';
+import 'package:aslab_travel/latihanmodul/pertemuan9API.dart';
 import 'package:aslab_travel/model/landing_model.dart';
 import 'package:aslab_travel/project/screens/home_page.dart';
 import 'package:aslab_travel/project/screens/landing_page.dart';
@@ -17,7 +18,7 @@ class TravelApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: Pertemuan9APIScreen(),
     );
   }
 }
